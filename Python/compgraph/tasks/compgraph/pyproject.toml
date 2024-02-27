@@ -1,0 +1,16 @@
+[project]
+name = "compgraph"
+version = "1.0.0"
+description = "computation graphs package"
+readme = "LIB_README.md"
+requires-python = ">=3.7"
+authors = [
+  {name = "Daniil Domnin", email = "domnindaniil12@gmail.com" }
+]
+
+[tool.setuptools]
+packages = ["compgraph", "examples", "tests"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
